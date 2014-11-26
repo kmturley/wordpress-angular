@@ -1,6 +1,7 @@
 wordpress-angular
 ===========
-Wordpress and AngularJS combined
+Wordpress and AngularJS combined:
+
     Wordpress `http://wordpress.org/`
     Wordpress REST api plugin `https://wordpress.org/plugins/json-rest-api/`
     AngularJS `http://angularjs.org/`
@@ -11,19 +12,16 @@ Install [Wordpress](http://wordpress.org/) then navigate to the admin at:
 
     http://localhost:8888/wp-admin/
 
-Go to the plugins section and search for the REST api plugin:
-
-    JSON REST API (WP API)
+Go to the plugins section and install the REST api plugin called JSON REST API (WP API)
     
-After installing put this theme inside the following folder:
+After installing the plugin, put this wordpress-angular theme inside the following folder, and activate the theme in the admin
 
-    /wp-content/themes
+    /wp-content/themes/wordpress-angular
 
 ## Running the app during development
 
 Go to the folder and open the first page in your web browser
 
-    http://localhost:8888/
     http://localhost:8888/
 
 ## Directory Layout

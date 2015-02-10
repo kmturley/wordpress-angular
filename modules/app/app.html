@@ -1,14 +1,15 @@
-<div class="row">
+<div class="row app">
     <div class="col-md-8">
-        <div class="post" ng-repeat="item in posts">
-            <h1>{{ item.title }}</h1>
+        <div ng-repeat="item in posts">
+            <h3 class="post-title entry-title" itemprop="name">
+                <a ui-sref="post({slug:item.slug})">{{ item.title }}</a>
+            </h3>
             <p><i>{{ item.date | date:"MM/dd/yyyy 'at' h:mma" }}</i></p>
             <div ng-bind-html="item.content"></div>
         </div>
     </div>
     <div class="col-md-4">
         <p>sidebar</p>
+        <a class="button btn-primary" ng-click="post()">Test</a>
     </div>
 </div>
-
-    

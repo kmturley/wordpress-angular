@@ -1,18 +1,18 @@
 /**
- * @module Page
- * @summary Page module
+ * @module Post
+ * @summary Post module
  */
 
 /*globals window, angular, document */
 
-angular.module('page', [
+angular.module('post', [
     'ui.router'
 ])
-    .controller('page', ['$scope', '$sce', 'item', function ($scope, $sce, item) {
+    .controller('post', ['$scope', '$sce', 'item', function ($scope, $sce, item) {
         'use strict';
-
-        console.log('post', item);
         
+        console.log('post', item);
+
         $scope.item = item;
         $scope.item.content = $sce.trustAsHtml(item.content);
     }]);

@@ -4,6 +4,7 @@
     <script src="<?php echo get_template_directory_uri() ?>/libs/angular-ui/angular-ui-router.min.js"></script>
     <script src="<?php echo get_template_directory_uri() ?>/modules/app/app.js"></script>
     <script src="<?php echo get_template_directory_uri() ?>/modules/page/page.js"></script>
+    <script src="<?php echo get_template_directory_uri() ?>/modules/post/post.js"></script>
     <script>
         var settings = {
             "stateProvider": false,
